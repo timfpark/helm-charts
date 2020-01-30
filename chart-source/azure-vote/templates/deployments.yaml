@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: vote-back-{{.Release.Name}}
-        image: redis
+        image: {{ .Values.redisImage }}
         ports:
         - containerPort: 6379
           name: redis
@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: neilpeterson/azure-vote-front:v3
+        image: {{ .Values.voteFrontImage }}
         imagePullPolicy: Always
         ports:
         - containerPort: 80
