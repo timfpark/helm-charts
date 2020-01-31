@@ -7,5 +7,5 @@ value2: Dogs
 serviceNameFront: azure-vote-front
 serviceType: LoadBalancer
 
-redisImage: edaenaacr.azurecr.io/oh/redis:v1
-voteFrontImage: edaenaacr.azurecr.io/oh/azure-vote-front:v1
+redisImage: redis
+voteFrontImage: edsa14/azure-vote-front:v1
