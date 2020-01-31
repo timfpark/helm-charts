@@ -6,3 +6,9 @@ value2: Dogs
 # Service controlls
 serviceNameFront: azure-vote-front
 serviceType: LoadBalancer
+
+redis:
+    image: redis
+image:
+    tag: edsa14/azure-vote-front:v1
+
