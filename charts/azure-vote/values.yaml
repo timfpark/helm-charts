@@ -9,6 +9,9 @@ serviceType: LoadBalancer
 
 redis:
     image: redis
+
+
 image:
-    tag: edsa14/azure-vote-front:v1
+    tag: v1
+    name: edsa14/azure-vote-front
 
