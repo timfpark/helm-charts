@@ -13,9 +13,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ .Values.serviceNameFront }}
+  name: {{ .Values.serviceName }}
   labels:
-    name: {{ .Values.serviceNameFront }}
+    name: {{ .Values.serviceName }}
 spec:
   type: {{ .Values.serviceType }}
   ports:

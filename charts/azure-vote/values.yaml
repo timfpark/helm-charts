@@ -1,17 +1,16 @@
-# Azure Vote UI controll
+# Azure Vote UI controls
 title: "Azure Vote App"
 value1: Cats
 value2: Dogs
 
-# Service controlls
-serviceNameFront: azure-vote-front
+# Service controls
+serviceName: azure-vote-front
 serviceType: LoadBalancer
 
 redis:
     image: redis
 
-
 image:
+    repository: edsa14
+    name: azure-vote-front
     tag: v1
-    name: edsa14/azure-vote-front
-
